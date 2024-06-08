@@ -1,13 +1,3 @@
-"""Snake, classic arcade game.
-
-Exercises
-
-1. How do you make the snake faster or slower?
-2. How can you make the snake go around the edges?
-3. How would you move the food?
-4. Change the snake to respond to mouse clicks.
-"""
-
 from random import randrange
 from turtle import *
 
@@ -33,7 +23,7 @@ def inside(head):
 
 def update_score():
     """Update the score display."""
-    score_display.goto(160, 160)  # Mueve la tortuga a la esquina superior derecha
+    score_display.goto(120, 160)  
     score_display.clear()
     score_display.write(f"Score: {score}", align="center", font=("Courier", 24, "normal"))
 
